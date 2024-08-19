@@ -1,4 +1,1 @@
-cy.get('.book').within(() => {
-  cy.get('.button').should('have.css', 'background-color', 'rgb(46, 204, 113)');
-  // ... rest of the test case
-});
+{}
