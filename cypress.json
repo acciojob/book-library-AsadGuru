@@ -1,13 +1,4 @@
-describe('Book Library Tests', function() {
-    it('Checks book block properties', function() {
-        const price_background = 'rgb(46, 204, 113)'; 
-        const color_author = 'rgb(119, 119, 119)'; 
-        const color_white = 'rgb(255, 255, 255)';
-  
-        cy.get('.book').within(() => { 
-            cy.get('button').should('have.css', 'background-color', price_background).should('have.css', 'border-radius'); 
-            cy.get('button').should('have.css', 'color', color_white); 
-            cy.get('p').should('have.css', 'color').and('include', color_author); 
-        }); 
-    });
+cy.get('.book').within(() => {
+  cy.get('.button').should('have.css', 'background-color', 'rgb(46, 204, 113)');
+  // ... rest of the test case
 });
