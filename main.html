@@ -1,116 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
-
+ 
+<html>
+ 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-            background-color: #f8f8f8; /* Background color for the entire page */
-            margin: 0;
-            padding: 0;
-        }
-
-        header {
-            text-align: center;
-            padding: 20px;
-            background-color: #333;
-            color: #fff;
-        }
-
-        .book-library {
-            background-color: #ffffff; /* Background color for the book library container */
-            padding: 20px;
-            margin: 20px;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            border-radius: 5px;
-        }
-
-        .book {
-            width: 200px;
-            margin: 10px;
-            border: 1px solid #ccc;
-            padding: 10px;
-            background-color: rgb(46, 204, 113); /* Background color for each book block */
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            border-radius: 5px;
-            text-align: center;
-        }
-
-        .book img {
-            width: 100%;
-            height: auto;
-            border-radius: 3px;
-        }
-
-        .book h2 {
-            margin: 10px 0;
-            font-size: 1.5em; /* Font size for h2 */
-            color: #333;
-        }
-
-        .book p {
-            margin: 5px 0;
-            color: #777777; /* Author text color */
-        }
-
-        .button {
-            background-color: rgba(0, 0, 0, 0); /* Price button color */
-            border: none;
-            color: black;
-            padding: 10px 20px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-            margin: 4px 2px;
-            cursor: pointer;
-            border-radius: 3px;
-        }
-    </style>
-    <title>Book Library</title>
+	<link rel="stylesheet" href="styles.css">
 </head>
-
+ 
 <body>
-    <header>
-        <h1>Book Library</h1>
-    </header>
-
-    <main class="book-library">
-        <div class="book">
-            <div>
-                <img src="https://www.bookgeeks.in/wp-content/uploads/2018/01/Spy-in-the-Amber-by-Manohar-Malgonkar.jpg" alt="Spy in the Amber">
-                <h2>SPY ON THE AMBER</h2>
-                <p>BY Manohar Malgonkar</p>
-                <button class="button">Rs. 299</button>
-            </div>
-        </div>
-
-        <!-- More book blocks here -->
-        <div class="book">
-            <div>
-                <img src="https://www.bookgeeks.in/wp-content/uploads/2018/01/Sacred-Games-by-Vikram-Chandra.jpg" alt="Sacred Games">
-                <h2>Scared Games</h2>
-                <p>by Vikram Chandra </p>
-                <button class="button">Rs. 199</button>
-            </div>
-        </div>
-
-        <!-- Add more book blocks as needed -->
+	<!-- the entire body must be written by student -->
+	<h1>Book Library</h1>
+	<div class="book-library">		
 		<div class="book">
-            <div>
-                <img src="https://www.bookgeeks.in/wp-content/uploads/2018/01/Byomkesh-Bakshi-by-Sharadindu-Bandyopadhyay.jpg" alt="Byomkesh Bakshi">
-                <h2>BYOMKESH BAKSHI</h2>
-                <p>By Sharadindu Bandyopadhyay</p>
-                <button class="button">Rs. 249</button>
-            </div>
-        </div>
-    </main>
+			<img src="https://www.bookgeeks.in/wp-content/uploads/2018/01/Spy-in-the-Amber-by-Manohar-Malgonkar.jpg">
+			<h2>Spy in the Amber</h2>
+			<p class="author">BY Manohar Malgonkar</p>			
+			<div class="price"><p>Rs. 299</p></div>
+		</div>
+ 
+		<div class="book">
+			<img src="https://www.bookgeeks.in/wp-content/uploads/2018/01/Sacred-Games-by-Vikram-Chandra.jpg">
+			<h2>Sacred Games</h2>
+			<p class="author">by Vikram Chandra</p>			
+			<div class="price"><p>Rs. 199</p></div>
+		</div>
+ 
+		<div class="book">
+			<img src="https://www.bookgeeks.in/wp-content/uploads/2018/01/Byomkesh-Bakshi-by-Sharadindu-Bandyopadhyay.jpg">
+			<h2>Byomkesh Bakshi</h2>
+			<p class="author">By Sharadindu Bandyopadhyay</p>
+ 
+			<div class="price"><p>Rs. 249</p></div>
+		</div>
+	</div>
+    <script type="text/javascript" src="./script.js">
+</script>
+ 
 </body>
-
+ 
 </html>
-
